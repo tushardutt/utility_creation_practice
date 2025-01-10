@@ -1,6 +1,5 @@
 package com.userManagement.user_registration.controller;
 import com.userManagement.user_registration.model.User;
-import com.userManagement.user_registration.repository.UserRepository;
 import com.userManagement.user_registration.service.UserService;
 import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
