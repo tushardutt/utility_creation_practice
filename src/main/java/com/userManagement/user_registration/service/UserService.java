@@ -25,7 +25,7 @@ public class UserService {
         return userRepository.findById(id);
     }
 
-    //Retrieve user by email
+    //Retrieve user by email from Redis
     public User getUserByEmail(String email) {
         return userRepository.findByEmail(email);
     }
